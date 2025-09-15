@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="converter">
+    <h2>💱 Currency Converter</h2>
+
+    <input type="number" id="amount" placeholder="Enter amount" />
+
+    <div class="dropdowns">
+      <div class="select-box">
+        <img id="from-flag" src="https://flagcdn.com/24x18/us.png" alt="flag">
+        <select id="from"></select>
+      </div>
+
+      <span>➡</span>
+
+      <div class="select-box">
+        <img id="to-flag" src="https://flagcdn.com/24x18/in.png" alt="flag">
+        <select id="to"></select>
+      </div>
+    </div>
+
+    <button id="convertBtn">Convert</button>
+    <h3 id="result"></h3>
+  </div>
+
+  <script src="../js/home.js"></script>
+</body>
+</html>
